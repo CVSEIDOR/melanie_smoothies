@@ -29,7 +29,7 @@ if ingredients_list:
     #st.write (ingredients_string)
     
     my_insert_stmt = """ insert into smoothies.public.fruit_options(fruit_name)
-            values ('""" + ingredients_string + """','"""+ name_on_order +"""')"""
+            values ('""" + ingredients_string + """')"""
 
     st.write(my_insert_stmt)
     
